@@ -27,13 +27,13 @@ class App extends Component {
   <Card className="Card">
     <Card.Img variant="top" src="" width="10px" height="120px" />
     <Card.Body>
-      <Card.Title>Vehicle:</Card.Title>
+      <Card.Title>Vehicle: {value.name}</Card.Title>
       <Card.Text>
-      {value.name}
+      {value.description}
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted">Last updated 8 mins ago</small>
+      <small className="text-muted">Last updated 23 mins ago</small>
     </Card.Footer>
   </Card>
   ))}
