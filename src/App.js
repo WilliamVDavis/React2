@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import Card from 'react-bootstrap/Card';
+import './App.css'
 
 
 class App extends Component {
@@ -23,8 +24,8 @@ class App extends Component {
   return (
     <div>
       {this.state.vehicles.map((value, key) => (
-  <Card className="card">
-    <Card.Img variant="top" src="holder.js/100px160" />
+  <Card className="Card">
+    <Card.Img variant="top" src="" width="10px" height="120px" />
     <Card.Body>
       <Card.Title>Vehicle:</Card.Title>
       <Card.Text>
@@ -32,7 +33,7 @@ class App extends Component {
       </Card.Text>
     </Card.Body>
     <Card.Footer>
-      <small className="text-muted">Last updated 3 mins ago</small>
+      <small className="text-muted">Last updated 8 mins ago</small>
     </Card.Footer>
   </Card>
   ))}

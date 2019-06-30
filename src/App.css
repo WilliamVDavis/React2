@@ -1,0 +1,10 @@
+.App{
+  justify-content: space-around;
+}
+.Card{
+  display: inline-flex;
+  height: 265px;
+  width: 400px;
+  justify-content: space-around;
+  border: 3px solid rgb(185, 179, 179);
+}
